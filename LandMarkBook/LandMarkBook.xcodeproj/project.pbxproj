@@ -13,6 +13,7 @@
 		B2096E7E296497B300F24153 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2096E7C296497B300F24153 /* Main.storyboard */; };
 		B2096E80296497B400F24153 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2096E7F296497B400F24153 /* Assets.xcassets */; };
 		B2096E83296497B400F24153 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2096E81296497B400F24153 /* LaunchScreen.storyboard */; };
+		B2096E8B2964A1C300F24153 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2096E8A2964A1C300F24153 /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B2096E7F296497B400F24153 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2096E82296497B400F24153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2096E84296497B400F24153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2096E8A2964A1C300F24153 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				B2096E76296497B300F24153 /* AppDelegate.swift */,
 				B2096E78296497B300F24153 /* SceneDelegate.swift */,
 				B2096E7A296497B300F24153 /* ViewController.swift */,
+				B2096E8A2964A1C300F24153 /* DetailsViewController.swift */,
 				B2096E7C296497B300F24153 /* Main.storyboard */,
 				B2096E7F296497B400F24153 /* Assets.xcassets */,
 				B2096E81296497B400F24153 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				B2096E7B296497B300F24153 /* ViewController.swift in Sources */,
 				B2096E77296497B300F24153 /* AppDelegate.swift in Sources */,
 				B2096E79296497B300F24153 /* SceneDelegate.swift in Sources */,
+				B2096E8B2964A1C300F24153 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

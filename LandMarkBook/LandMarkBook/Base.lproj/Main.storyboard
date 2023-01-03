@@ -32,11 +32,45 @@
                     </view>
                     <connections>
                         <outlet property="tableView" destination="uoy-W9-AYQ" id="4BO-p1-bYj"/>
+                        <segue destination="XOr-ub-6t0" kind="show" identifier="segueOne" id="ogM-3T-oD5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="102" y="4"/>
+        </scene>
+        <!--Details View Controller-->
+        <scene sceneID="0ye-6u-1rj">
+            <objects>
+                <viewController id="XOr-ub-6t0" customClass="DetailsViewController" customModule="LandMarkBook" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zAJ-PU-9k0">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Sg-AY-hqF">
+                                <rect key="frame" x="82" y="20" width="229" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="byF-X7-VlQ">
+                                <rect key="frame" x="16" y="246" width="361" height="239"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Kju-M3-Scv"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Sw9-Rv-KLC"/>
+                    <connections>
+                        <outlet property="landMarkImageView" destination="byF-X7-VlQ" id="lOe-9f-Lwl"/>
+                        <outlet property="landMarkLabell" destination="8Sg-AY-hqF" id="9En-PE-2Pc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oeG-85-fal" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1235.8778625954199" y="3.5211267605633805"/>
         </scene>
     </scenes>
     <resources>
