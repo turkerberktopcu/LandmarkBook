@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  LandmarkBook
+//  LandMarkBook
 //
-//  Created by Türker Berk Topçu on 29.12.2022.
+//  Created by Türker Berk Topçu on 3.01.2023.
 //
 
 import UIKit

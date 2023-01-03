@@ -1,27 +1,25 @@
 //
 //  ViewController.swift
-//  LandmarkBook
+//  LandMarkBook
 //
-//  Created by Türker Berk Topçu on 29.12.2022.
+//  Created by Türker Berk Topçu on 3.01.2023.
 //
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-    
-  
+class ViewController: UIViewController ,UITableViewDelegate ,UITableViewDataSource{
     
     
-
     @IBOutlet weak var tableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
-    }
     
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 30
+    }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell()
@@ -29,10 +27,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         content.text = "Test"
         cell.contentConfiguration = content
         return cell
-        
-        
     }
-  
+    
 
 }
 
