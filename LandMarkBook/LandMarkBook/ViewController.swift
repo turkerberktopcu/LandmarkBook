@@ -51,7 +51,7 @@ class ViewController: UIViewController ,UITableViewDelegate ,UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
+        return LMobjects.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -73,6 +73,13 @@ class ViewController: UIViewController ,UITableViewDelegate ,UITableViewDataSour
             destination.selectedLMName = chosenLMName
             destination.selectedLMImage = chosenLMImage
             
+        }
+    }
+    
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            LMobjects.remove(at: indexPath.row)
+            tableView.deleteRows(at: [indexPath], with: UITableView.RowAnimation.top)
         }
     }
 
